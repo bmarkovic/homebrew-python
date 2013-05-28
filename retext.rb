@@ -13,7 +13,6 @@ class Retext < Formula
 
   depends_on 'pyqt'
   depends_on 'markups' => :python
-  depends_on 'Markdown' => :python
   depends_on 'docutils' => :python
   depends_on 'enchant'
   depends_on LanguageModuleDependency.new(:python, 'pyenchant', 'enchant')
